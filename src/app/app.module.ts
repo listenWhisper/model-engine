@@ -12,8 +12,7 @@ const VIEWS = [
 ]
 
 const NZ_MODULE = [
-  NzLayoutModule,
-  NzButtonModule,
+
 ]
 
 @NgModule({
@@ -24,7 +23,8 @@ const NZ_MODULE = [
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NZ_MODULE
+    NzLayoutModule,
+    NzButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
